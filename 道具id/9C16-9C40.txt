@@ -1,0 +1,172 @@
+//id:9C16    itemName:8级暗物质
+if(strcmp(itemName, "8级暗物质") == 0){
+    return 0x9C16;
+}
+//id:9C17    itemName:8级暗物质
+if(strcmp(itemName, "8级暗物质") == 0){
+    return 0x9C17;
+}
+//id:9C18    itemName:8级暗物质
+if(strcmp(itemName, "8级暗物质") == 0){
+    return 0x9C18;
+}
+//id:9C19    itemName:8级暗物质
+if(strcmp(itemName, "8级暗物质") == 0){
+    return 0x9C19;
+}
+//id:9C1A    itemName:8级暗物质
+if(strcmp(itemName, "8级暗物质") == 0){
+    return 0x9C1A;
+}
+//id:9C1B    itemName:8级暗物质
+if(strcmp(itemName, "8级暗物质") == 0){
+    return 0x9C1B;
+}
+//id:9C1C    itemName:8级暗物质
+if(strcmp(itemName, "8级暗物质") == 0){
+    return 0x9C1C;
+}
+//id:9C1D    itemName:8级暗物质
+if(strcmp(itemName, "8级暗物质") == 0){
+    return 0x9C1D;
+}
+//id:9C1E    itemName:8级暗物质
+if(strcmp(itemName, "8级暗物质") == 0){
+    return 0x9C1E;
+}
+//id:9C1F    itemName:8级暗物质
+if(strcmp(itemName, "8级暗物质") == 0){
+    return 0x9C1F;
+}
+//id:9C20    itemName:8级暗物质
+if(strcmp(itemName, "8级暗物质") == 0){
+    return 0x9C20;
+}
+//id:9C21    itemName:8级暗物质
+if(strcmp(itemName, "8级暗物质") == 0){
+    return 0x9C21;
+}
+//id:9C22    itemName:8级暗物质
+if(strcmp(itemName, "8级暗物质") == 0){
+    return 0x9C22;
+}
+//id:9C23    itemName:8级暗物质
+if(strcmp(itemName, "8级暗物质") == 0){
+    return 0x9C23;
+}
+//id:9C24    itemName:8级暗物质
+if(strcmp(itemName, "8级暗物质") == 0){
+    return 0x9C24;
+}
+//id:9C25    itemName:8级暗物质
+if(strcmp(itemName, "8级暗物质") == 0){
+    return 0x9C25;
+}
+//id:9C26    itemName:8级暗物质
+if(strcmp(itemName, "8级暗物质") == 0){
+    return 0x9C26;
+}
+//id:9C27    itemName:8级暗物质
+if(strcmp(itemName, "8级暗物质") == 0){
+    return 0x9C27;
+}
+//id:9C28    itemName:8级暗物质
+if(strcmp(itemName, "8级暗物质") == 0){
+    return 0x9C28;
+}
+//id:9C29    itemName:8级暗物质
+if(strcmp(itemName, "8级暗物质") == 0){
+    return 0x9C29;
+}
+//id:9C2A    itemName:8级暗物质
+if(strcmp(itemName, "8级暗物质") == 0){
+    return 0x9C2A;
+}
+//id:9C2B    itemName:8级暗物质
+if(strcmp(itemName, "8级暗物质") == 0){
+    return 0x9C2B;
+}
+//id:9C2C    itemName:8级暗物质
+if(strcmp(itemName, "8级暗物质") == 0){
+    return 0x9C2C;
+}
+//id:9C2D    itemName:8级暗物质
+if(strcmp(itemName, "8级暗物质") == 0){
+    return 0x9C2D;
+}
+//id:9C2E    itemName:8级暗物质
+if(strcmp(itemName, "8级暗物质") == 0){
+    return 0x9C2E;
+}
+//id:9C2F    itemName:8级暗物质
+if(strcmp(itemName, "8级暗物质") == 0){
+    return 0x9C2F;
+}
+//id:9C30    itemName:8级暗物质
+if(strcmp(itemName, "8级暗物质") == 0){
+    return 0x9C30;
+}
+//id:9C31    itemName:8级暗物质
+if(strcmp(itemName, "8级暗物质") == 0){
+    return 0x9C31;
+}
+//id:9C32    itemName:8级暗物质
+if(strcmp(itemName, "8级暗物质") == 0){
+    return 0x9C32;
+}
+//id:9C33    itemName:8级暗物质
+if(strcmp(itemName, "8级暗物质") == 0){
+    return 0x9C33;
+}
+//id:9C34    itemName:8级暗物质
+if(strcmp(itemName, "8级暗物质") == 0){
+    return 0x9C34;
+}
+//id:9C35    itemName:8级暗物质
+if(strcmp(itemName, "8级暗物质") == 0){
+    return 0x9C35;
+}
+//id:9C36    itemName:8级暗物质
+if(strcmp(itemName, "8级暗物质") == 0){
+    return 0x9C36;
+}
+//id:9C37    itemName:8级暗物质
+if(strcmp(itemName, "8级暗物质") == 0){
+    return 0x9C37;
+}
+//id:9C38    itemName:8级暗物质
+if(strcmp(itemName, "8级暗物质") == 0){
+    return 0x9C38;
+}
+//id:9C39    itemName:8级暗物质
+if(strcmp(itemName, "8级暗物质") == 0){
+    return 0x9C39;
+}
+//id:9C3A    itemName:8级暗物质
+if(strcmp(itemName, "8级暗物质") == 0){
+    return 0x9C3A;
+}
+//id:9C3B    itemName:8级暗物质
+if(strcmp(itemName, "8级暗物质") == 0){
+    return 0x9C3B;
+}
+//id:9C3C    itemName:8级暗物质
+if(strcmp(itemName, "8级暗物质") == 0){
+    return 0x9C3C;
+}
+//id:9C3D    itemName:8级暗物质
+if(strcmp(itemName, "8级暗物质") == 0){
+    return 0x9C3D;
+}
+//id:9C3E    itemName:8级暗物质
+if(strcmp(itemName, "8级暗物质") == 0){
+    return 0x9C3E;
+}
+//id:9C3F    itemName:8级暗物质
+if(strcmp(itemName, "8级暗物质") == 0){
+    return 0x9C3F;
+}
+//id:9C40    itemName:8级暗物质
+if(strcmp(itemName, "8级暗物质") == 0){
+    return 0x9C40;
+}
