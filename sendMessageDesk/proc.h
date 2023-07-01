@@ -12,6 +12,8 @@ LRESULT CALLBACK keyboardProc(
 
 extern LRESULT CALLBACK acceptProc(int code, WPARAM wParam, LPARAM lParam);
 
+
+
 typedef struct PMsg {
 	char itemName[128];
 	WORD itemId;
@@ -19,4 +21,5 @@ typedef struct PMsg {
 
 //¹²ÏíÄÚ´æµØÖ·
 extern LPTSTR pBuf;
+extern LPTSTR pCBuf;
 extern FILE* stream;

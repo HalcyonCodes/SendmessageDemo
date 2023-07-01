@@ -36,6 +36,9 @@
     <ClInclude Include="writeItem.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="writeCoordinates.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="sendMessageDesk.cpp">
@@ -45,7 +48,10 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="writeItem.cpp">
-      <Filter>资源文件</Filter>
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="writeCoordinates.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

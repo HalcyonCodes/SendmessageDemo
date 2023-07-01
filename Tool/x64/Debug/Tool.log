@@ -3,18 +3,18 @@
   delay.cpp
   getHWNDByPid.cpp
   locatedAddr.cpp
-D:\codes\进程间通信demo\SendMessageDemo\Tool\locatedAddr.cpp(12,66): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-D:\codes\进程间通信demo\SendMessageDemo\Tool\locatedAddr.cpp(29,56): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-D:\codes\进程间通信demo\SendMessageDemo\Tool\locatedAddr.cpp(69,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\Administrator\codes\SendmessageDemo\Tool\locatedAddr.cpp(12,17): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\Administrator\codes\SendmessageDemo\Tool\locatedAddr.cpp(29,25): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\Administrator\codes\SendmessageDemo\Tool\locatedAddr.cpp(69,10): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
   myStrCat.cpp
   myStrCpy.cpp
   offsetHandle.cpp
-D:\codes\进程间通信demo\SendMessageDemo\Tool\offsetHandle.cpp(93,19): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\Administrator\codes\SendmessageDemo\Tool\offsetHandle.cpp(93,14): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
   reHideModule.cpp
   unicodeToUtf8.cpp
-D:\codes\进程间通信demo\SendMessageDemo\Tool\unicodeToUtf8.cpp(4,10): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+C:\Users\Administrator\codes\SendmessageDemo\Tool\unicodeToUtf8.cpp(4,10): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
   utf8ToUnicode.cpp
-D:\codes\进程间通信demo\SendMessageDemo\Tool\utf8ToUnicode.cpp(4,10): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+C:\Users\Administrator\codes\SendmessageDemo\Tool\utf8ToUnicode.cpp(4,10): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
   正在生成代码...
-D:\codes\进程间通信demo\SendMessageDemo\Tool\offsetHandle.cpp(56): warning C4715: “getTargetAddr”: 不是所有的控件路径都返回值
-  Tool.vcxproj -> D:\codes\进程间通信demo\SendMessageDemo\Lib\Tool.lib
+C:\Users\Administrator\codes\SendmessageDemo\Tool\offsetHandle.cpp(56): warning C4715: “getTargetAddr”: 不是所有的控件路径都返回值
+  Tool.vcxproj -> C:\Users\Administrator\codes\SendmessageDemo\Lib\Tool.lib

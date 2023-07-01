@@ -5,11 +5,14 @@
 
 #include "dbgPrint.h"
 #include "writeItem.h"
+#include "writeCoordinates.h"
 //#include "proc.h"
 #include "myStrCpy.h"
 #include <stdio.h>
 
 LPTSTR pBuf = 0;
+LPTSTR pCBuf = 0;
+
 FILE* stream;
 
 typedef struct PMsg {
@@ -17,6 +20,11 @@ typedef struct PMsg {
 	WORD itemId;
 };
 
+typedef struct CMsg {
+	float pointX;
+	float pointY;
+	float pointZ;
+};
 
 //----------机器人功能模块--------------------
 extern LRESULT CALLBACK acceptProc(int code, WPARAM wParam, LPARAM lParam) {
@@ -25,7 +33,7 @@ extern LRESULT CALLBACK acceptProc(int code, WPARAM wParam, LPARAM lParam) {
 		if (lpArg->message == acceptMsgCode) {
 			switch (lpArg->wParam) {
 				//这里添加各种机器人动作
-			case msgTest1: {
+			case msgChannelWriteItemId: {
 				//----------------测试----------------------
 				//::MessageBox(NULL, L"消息来了", L"caption", 0x00000002L);
 				/*HANDLE hMapFile = CreateFileMapping(
@@ -52,6 +60,14 @@ extern LRESULT CALLBACK acceptProc(int code, WPARAM wParam, LPARAM lParam) {
 				writeItem(id, name);
 				break;
 			}
+			//通过游戏按键发送坐标并写入坐标点
+			case msgChannelWriteCoordinate: {
+				CMsg* p = (CMsg*)pCBuf;
+				float x = p->pointX;
+				float y = p->pointY;
+				float z = p->pointZ;
+				writeCoordinates((char*)"1132", x, y, z);
+			}
 
 			}
 		}
@@ -60,13 +76,5 @@ extern LRESULT CALLBACK acceptProc(int code, WPARAM wParam, LPARAM lParam) {
 	}
 }
 
-LRESULT CALLBACK keyboardProc(
-	_In_ int    code,
-	_In_ WPARAM wParam,
-	_In_ LPARAM lParam
-)
-{
-	::MessageBox(NULL, L"按键了", L"caption", 0x00000002L);
-	return CallNextHookEx(NULL, code, wParam, lParam);//第一个参数一般可以为NULL
-}
+
 

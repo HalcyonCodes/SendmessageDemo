@@ -41,10 +41,12 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
     LoadStringW(hInstance, IDC_SENDMESSAGEDESK, szWindowClass, MAX_LOADSTRING);
     MyRegisterClass(hInstance);
 
-    FILE* stream;
-    freopen_s(&stream, "allItemId.txt", "a", stdout);
+    //获取所有道具id时开启
+    //FILE* stream;
+    //freopen_s(&stream, "allItemId.txt", "a", stdout);
 
     //共享内存
+    //写入道具id的共享内存
     //创建共享内存
     HANDLE hMapFile = CreateFileMapping(
         INVALID_HANDLE_VALUE, NULL, PAGE_READWRITE, 0, 256, L"BotMem"
@@ -63,13 +65,33 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
          ::MessageBox(NULL, L"pBuff为NULL", L"caption", 0x00000002L);
      }
 
+     //写入角色坐标的共享内存
+     //创建共享内存
+     HANDLE hCMapFile = CreateFileMapping(
+         INVALID_HANDLE_VALUE, NULL, PAGE_READWRITE, 0, 256, L"BotKeyBoard"
+     );
 
+     //映射共享内存到进程地址中
+     pCBuf = (LPTSTR)MapViewOfFile(
+         hCMapFile,
+         FILE_MAP_ALL_ACCESS,
+         0,
+         0,
+         256
+     );
+
+     if (pCBuf == NULL) {
+         ::MessageBox(NULL, L"pBuff为NULL", L"caption", 0x00000002L);
+     }
+
+     //当需要写入id到文件时用的hook
      HHOOK hHook = SetWindowsHookEx(
          WH_CALLWNDPROC, // 钩子类型
          acceptProc,     // 钩子回调函数
          GetModuleHandle(NULL),      // 实例句柄
          GetCurrentThreadId()              // 目标线程标识（使用 0 表示全局钩子）
      );
+
 
      if (hHook == NULL)
      {

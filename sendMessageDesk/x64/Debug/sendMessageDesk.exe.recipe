@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\codes\进程间通信demo\SendMessageDemo\Bin\sendMessageDesk.exe</FullPath>
+      <FullPath>C:\Users\Administrator\codes\SendmessageDemo\Bin\sendMessageDesk.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

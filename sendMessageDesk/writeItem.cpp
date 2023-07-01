@@ -2,7 +2,7 @@
 #include <cstdio>
 #define QWORD long long
 
-
+//记录物品id并写入文件
 void writeItem(WORD itemId, char* itemName) {
 
    
@@ -25,9 +25,6 @@ void writeItem(WORD itemId, char* itemName) {
 	strcat_s(txt, sizeof("}"), "}");
 	strcat_s(txt, sizeof("\n"), "\n");
 	*/
-	
-
-	
 	
 	printf("//id:");
 	printf("%04X    ", itemId);

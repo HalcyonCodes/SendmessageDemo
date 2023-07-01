@@ -140,11 +140,13 @@
     <ClInclude Include="Resource.h" />
     <ClInclude Include="sendMessageDesk.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="writeCoordinates.h" />
     <ClInclude Include="writeItem.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="proc.cpp" />
     <ClCompile Include="sendMessageDesk.cpp" />
+    <ClCompile Include="writeCoordinates.cpp" />
     <ClCompile Include="writeItem.cpp" />
   </ItemGroup>
   <ItemGroup>

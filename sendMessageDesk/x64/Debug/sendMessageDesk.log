@@ -1,8 +1,11 @@
 ﻿  proc.cpp
-D:\codes\进程间通信demo\SendMessageDemo\sendMessageDesk\proc.cpp(18,2): warning C4091: “typedef ”: 没有声明变量时忽略“PMsg”的左侧
+C:\Users\Administrator\codes\SendmessageDemo\sendMessageDesk\head.h(1,1): warning C4828: 文件包含在偏移 0x16f 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
+C:\Users\Administrator\codes\SendmessageDemo\sendMessageDesk\proc.cpp(21,2): warning C4091: “typedef ”: 没有声明变量时忽略“PMsg”的左侧
+C:\Users\Administrator\codes\SendmessageDemo\sendMessageDesk\proc.cpp(27,2): warning C4091: “typedef ”: 没有声明变量时忽略“CMsg”的左侧
   sendMessageDesk.cpp
-D:\codes\进程间通信demo\SendMessageDemo\sendMessageDesk\proc.h(18,2): warning C4091: “typedef ”: 没有声明变量时忽略“PMsg”的左侧
+C:\Users\Administrator\codes\SendmessageDemo\sendMessageDesk\proc.h(20,2): warning C4091: “typedef ”: 没有声明变量时忽略“PMsg”的左侧
+  writeCoordinates.cpp
   writeItem.cpp
   正在生成代码...
-D:\codes\进程间通信demo\SendMessageDemo\sendMessageDesk\proc.cpp(61): warning C4715: “acceptProc”: 不是所有的控件路径都返回值
-  sendMessageDesk.vcxproj -> D:\codes\进程间通信demo\SendMessageDemo\Bin\sendMessageDesk.exe
+C:\Users\Administrator\codes\SendmessageDemo\sendMessageDesk\proc.cpp(77): warning C4715: “acceptProc”: 不是所有的控件路径都返回值
+  sendMessageDesk.vcxproj -> C:\Users\Administrator\codes\SendmessageDemo\Bin\sendMessageDesk.exe
